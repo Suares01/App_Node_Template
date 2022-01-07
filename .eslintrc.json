@@ -27,7 +27,14 @@
       {
         "devDependencies": true
       }
-    ]
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never"
+      }
+   ]
   },
   "settings": {
     "import/resolver": {
