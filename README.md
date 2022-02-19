@@ -39,8 +39,9 @@ You can now launch your own repository.
 Now, install the dependencies.
 
 ``` shell
-$ npm install
+$ yarn install
 ```
+If you prefer to use npm than yarn, remove the `yarn.lock` file an run `npm install`.
 
 **And ready! You can start coding!**
 
